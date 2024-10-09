@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +32,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.tao_danh_sach.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728462389294</updated>
-      <workItem from="1728462390790" duration="4049000" />
+      <workItem from="1728462390790" duration="4598000" />
     </task>
     <servers />
   </component>
