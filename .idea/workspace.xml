@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/form_dangky_nguoidung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/form_dangkynguoidung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/form_dongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/tao_form_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/bang_don_gian1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6_tongquanjs/average_maths_physics_chemical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6_tongquanjs/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -78,7 +78,9 @@
       <workItem from="1728474315292" duration="4379000" />
       <workItem from="1728479057567" duration="510000" />
       <workItem from="1728479595442" duration="3960000" />
-      <workItem from="1728636654611" duration="2533000" />
+      <workItem from="1728636654611" duration="3268000" />
+      <workItem from="1728647498210" duration="3401000" />
+      <workItem from="1728653293147" duration="3050000" />
     </task>
     <servers />
   </component>
