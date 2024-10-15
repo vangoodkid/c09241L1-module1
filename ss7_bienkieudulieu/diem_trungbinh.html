@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinhdiemtrungbinh</title>
+</head>
+<body>
+  <h1>Điểm Trung Bình</h1>
+  <label for="physics">Điểm lý</label>
+  <input style="margin-left: 15px" type="text" id="physics"> <br>
+  <label for="chemical">Điểm hóa</label>
+  <input style="margin-left: 5px" type="text" id="chemical"> <br>
+  <label for="biology">Điểm sinh</label>
+  <input type="text" id="biology"> <br><br>
+
+  <button onclick="tinhDiemTrungBinh()">tinhdiemtrungbinh</button>
+
+<script>
+  function tinhDiemTrungBinh() {
+    let ly =parseFloat(document.getElementById("physics").value);
+    let hoa =parseFloat(document.getElementById("chemical").value);
+    let sinh =parseFloat(document.getElementById("biology").value);
+
+    let diemTB= (ly + hoa + sinh) / 3;
+    alert("average: "+diemTB);
+  }
+</script>
+</body>
+</html>
