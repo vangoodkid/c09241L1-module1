@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="" />
+    <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss8_caulenh_dieukien2/bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss82_caulenh_dieukien/bai9.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/phamvan/Documents/C0924L1_module1/practice_html",
+    "last_opened_file_path": "/Users/phamvan/Documents/C0924L1_module1/ss82_caulenh_dieukien",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ss82_caulenh_dieukien" />
       <recent name="$PROJECT_DIR$/practice_html" />
       <recent name="$PROJECT_DIR$/ss4_git_html/bai_tap" />
       <recent name="$PROJECT_DIR$/ss4_git_html" />
@@ -96,6 +111,7 @@
       <workItem from="1729391567994" duration="7444000" />
       <workItem from="1729417464555" duration="2932000" />
       <workItem from="1729480764087" duration="25890000" />
+      <workItem from="1729519234179" duration="462000" />
     </task>
     <servers />
   </component>
