@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai1</title>
+</head>
+<body>
+<label for="a">a</label>
+<input id="a">
+<label for="b">b</label>
+<input id="b">
+
+<button onclick="calculate()">result</button>
+<script>
+  function calculate() {
+    let a = document.getElementById('a').value;
+    let b = document.getElementById('a').value;
+    if (a%b == 0){
+      alert("a chia het cho b");
+    }else{
+      alert("a khong chia het cho b")
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai6</title>
+</head>
+<body>
+<label for="sale">nhập số doanh thu</label><br>
+<input type="number" id="sale"><br>
+<label for="salary">tiền lương của bạn</label><br>
+<input type="number" id="salary"><br>
+<button onclick="calculate()">calCulate</button>
+
+<h3 id="yoursalary"></h3>
+<script>
+    function calculate() {
+        let targetSale = document.getElementById('sale').value;
+        let salary = document.getElementById('salary').value;
+        if (targetSale<100){
+            salary = salary * 1.3;
+        }else if (targetSale<1000){
+            salary = salary * 1.5;
+        }else {
+            salary = salary * 1.8;
+        }
+        document.getElementById('yoursalary').innerText = "tổng thu nhập của bạn: "+salary;
+    }
+</script>
+</body>
+</html>

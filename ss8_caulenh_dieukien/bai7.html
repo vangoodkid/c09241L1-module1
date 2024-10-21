@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai7</title>
+</head>
+<body>
+<label for="minute">số phút gọi dc</label><br>
+<input type="number" id="minute"><br>
+
+<button onclick="calculate()">calculate</button>
+<h1 id="result"></h1>
+<script>
+    function calculate() {
+       let minute = document.getElementById('minute').value;
+       if (minute <60){
+           minute *= 800;
+       }else if (minute < 30){
+           minute *= 1200;
+        }else {
+           minute *= 1400;
+       }
+
+        document.getElementById('result').innerText = "thanh toán sau cuộc gọi: "+minute
+    }
+</script>
+</body>
+</html>

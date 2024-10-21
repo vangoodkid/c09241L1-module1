@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_form_table/bai_tap/bang_don_gian1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6_tongquanjs/average_maths_physics_chemical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6_tongquanjs/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_caulenh_dieukien/caulenh_switch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_caulenh_dieukien/chiso_cannang_cothe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_caulenh_dieukien/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_caulenh_dieukien/demo2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -42,7 +44,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/phamvan/Documents/C0924L1_module1/ss4_git_html/bai_tap&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/phamvan/Documents/C0924L1_module1/practice_html&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -53,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice_html" />
       <recent name="$PROJECT_DIR$/ss4_git_html/bai_tap" />
       <recent name="$PROJECT_DIR$/ss4_git_html" />
       <recent name="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/ss4_git_html" />
@@ -80,7 +84,22 @@
       <workItem from="1728479595442" duration="3960000" />
       <workItem from="1728636654611" duration="3268000" />
       <workItem from="1728647498210" duration="3401000" />
-      <workItem from="1728653293147" duration="3050000" />
+      <workItem from="1728653293147" duration="3247000" />
+      <workItem from="1728906955743" duration="3694000" />
+      <workItem from="1728914531726" duration="1522000" />
+      <workItem from="1728994772517" duration="4879000" />
+      <workItem from="1729079821663" duration="7730000" />
+      <workItem from="1729137053556" duration="13777000" />
+      <workItem from="1729172104404" duration="4341000" />
+      <workItem from="1729223326402" duration="2705000" />
+      <workItem from="1729235377743" duration="310000" />
+      <workItem from="1729237144454" duration="3398000" />
+      <workItem from="1729251064478" duration="1746000" />
+      <workItem from="1729256410115" duration="5222000" />
+      <workItem from="1729309171741" duration="2195000" />
+      <workItem from="1729339506596" duration="7236000" />
+      <workItem from="1729391567994" duration="7444000" />
+      <workItem from="1729417464555" duration="2932000" />
     </task>
     <servers />
   </component>

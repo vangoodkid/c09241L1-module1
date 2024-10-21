@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<label for="a">test</label>
+<input type="number" id="a">
+<label for="b">midterm</label>
+<input type="number" id="b">
+<label for="c">finalterm</label>
+<input type="number" id="c">
+<button onclick="calculate()">result</button>
+<h1 id="result"></h1>
+
+<script>
+    function calculate() {
+        let a = Number(document.getElementById('a').value);
+        let b = Number(document.getElementById('b').value);
+        let c = Number(document.getElementById('c').value);
+        let ave = (a+b+c)/3;
+        if (ave >= 8){
+            document.getElementById('result').innerText="loai gioi";
+        }else if (ave >=6.5){
+            document.getElementById('result').innerText="loai kha";
+        }else if (ave >=5) {
+            document.getElementById('result').innerText="loai trung binh";
+        }else {
+            document.getElementById('result').innerText="loai yeu";
+        }
+    }
+</script>
+</body>
+</html>
