@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>chuyển m sang feet</h2>
+<label for="m">m convert feet</label><br>
+<input type="number" id="m"><br>
+
+<button onclick="Convert()">convert</button>
+
+<h1 id="result"></h1>
+<script>
+  function Convert() {
+    let m = Number(document.getElementById('m').value);
+    let feet = m*3.2808;
+    document.getElementById('result').innerText = "result: " +feet;
+  }
+</script>
+</body>
+</html>

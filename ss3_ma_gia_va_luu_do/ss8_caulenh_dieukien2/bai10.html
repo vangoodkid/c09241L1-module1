@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính giá điện</title>
+</head>
+<body>
+<label for="kWh">số lượng điện</label>
+<input type="number" id="kWh">
+
+<button onclick="calculate()">check</button>
+<script>
+    function calculate() {
+        let kWh = document.getElementById('kWh').value;
+        let price1 = kWh * 1500;
+        let price2 = kWh * 2000;
+        let price3 = kWh * 2500;
+        let price4 = kWh * 3000;
+
+        if (kWh >0 && kWh<= 50) {
+            alert("giá điện tiêu thụ: " + price1);
+        } else if (kWh <= 100) {
+            alert("giá điện tiêu thụ: " + price2);
+        } else if (kWh <= 150) {
+            alert("giá điện tiêu thụ: " + price3);
+        } else {
+            alert("giá điện tiêu thụ: " + price4);
+
+        }
+    }
+</script>
+</body>
+</html>

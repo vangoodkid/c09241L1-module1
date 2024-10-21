@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuế thu nhập</title>
+
+</head>
+<body>
+<label for="salary">thu nhập của bạn</label>
+<input type="number" id="salary">
+
+<button onclick="calculate()">check</button>
+<script>
+    function calculate() {
+        let salary = document.getElementById('salary').value;
+        let tax1 = salary * 0.05;
+        let tax2 = salary * 0.01;
+        let tax3 = salary * 0.15;
+        let tax4 = salary * 0.2;
+        let tax5 = salary * 0.25;
+        if (salary>0) {
+            if (salary <= 11000000) {
+                alert("giá thuế áp dụng vào: " + tax1);
+            } else if (salary <= 18000000) {
+                alert("giá thuế áp  dụng vào: " + tax2);
+            } else if (salary <= 32000000) {
+                alert("giá thuế  áp dụng vào: " + tax3);
+            } else if (salary <= 52000000) {
+                alert("giá thuế áp dụng vào: " + tax4);
+            } else {
+                alert("gái thuế áp dụng vào: " + tax5);
+            }
+        }else {
+            alert("vui lòng nhập >0: ")
+        }
+    }
+</script>
+</body>
+</html>

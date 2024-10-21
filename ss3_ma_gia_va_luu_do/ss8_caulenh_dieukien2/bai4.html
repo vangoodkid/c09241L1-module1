@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 style="color: tomato">diện tích hình chu nhat </h2>
+
+<label for="square"> hình vuong</label><br>
+<input type="number" id="square"><br>
+<label for="retangle"> hình chu nhat</label><br>
+<input type="number" id="retangle"><br>
+<button onclick="calculate()">Calculate</button>
+
+<h1 id="result"></h1>
+<script>
+  function calculate() {
+    let a = Number(document.getElementById('square').value);
+    let b = Number(document.getElementById('retangle').value);
+    let s = a*b;
+    document.getElementById('result').innerText = "result: " +s;
+  }
+</script>
+</body>
+</html>
