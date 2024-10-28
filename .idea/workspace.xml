@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai6.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,6 +47,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.demo.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.tao_danh_sach.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
@@ -111,7 +113,13 @@
       <workItem from="1729480764087" duration="25890000" />
       <workItem from="1729519234179" duration="462000" />
       <workItem from="1729519958386" duration="905000" />
-      <workItem from="1729672739938" duration="3750000" />
+      <workItem from="1729672739938" duration="4094000" />
+      <workItem from="1729683829144" duration="2736000" />
+      <workItem from="1729688506819" duration="4776000" />
+      <workItem from="1729858904397" duration="1728000" />
+      <workItem from="1729864763318" duration="681000" />
+      <workItem from="1729915373979" duration="598000" />
+      <workItem from="1730019126374" duration="992000" />
     </task>
     <servers />
   </component>

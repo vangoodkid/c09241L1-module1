@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = [52,20,8,9,60,70,10,23,15,40];
+    let v = Number(prompt("nhap so nguyen: "));
+    let flag = false;
+    for (let i = 0; i < n.length; i++) {
+        if (n[i] === v){
+            flag = true;
+        }
+    }
+    if (flag){
+        console.log("v is in the gray");
+    }else {
+        console.log("v is not in the gray");
+    }
+</script>
+</body>
+</html>

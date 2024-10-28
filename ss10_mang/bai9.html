@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let inputA = prompt("nhap 10 so nguyen cho a cach dau phay. ")
+  let a = inputA.split(",").map(Number);
+  let inputB = prompt("nhap 10 so nguyen cho b cach dau phay. ")
+  let b = inputB.split(",").map(Number);
+  let c = new Array(20);
+  console.log(inputA);
+  console.log(inputB);
+  for (let i = 0; i < 10; i++) {
+    c[i] = a[i];
+    c[i + 10] = b[i];
+  }
+  console.log(`mang c sau khi a va b noi vs nhau la ${c}`);
+</script>
+</body>
+</html>

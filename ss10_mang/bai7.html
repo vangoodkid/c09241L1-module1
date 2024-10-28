@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = prompt("nhap 10 so nguyen cach dau phay. ")
+    let numbers = n.split(",").map(Number);
+    let V = parseInt(prompt("nhap v: "));
+    let found = false;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] === V) {
+            found = true;
+
+            for (let j = i; j < numbers.length - 1; j++) {
+                numbers[j] = numbers[j + 1];
+            }
+            numbers[numbers.length - 1] = 0;
+            break;
+        }
+    }
+    if (found){
+        console.log(`so nguyen ${V} da xoa khoi mang.`)
+    }else {
+        console.log(`so nguyen ${V} k co trong mang.`)
+    }
+    console.log(`mang hien tai ${numbers}`);
+
+</script>
+</body>
+</html>

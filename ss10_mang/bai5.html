@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = prompt("nhap mot chuoi so nguyen dem so am: ");
+    let numbers = input.split(" ");
+    let count = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        let number = parseInt(numbers[i]);
+        if (number < 0){
+            count++;
+        }
+    }
+    console.log("so luong so nguyen am la",count);
+</script>
+</body>
+</html>

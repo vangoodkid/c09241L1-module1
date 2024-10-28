@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="playgame()">start</button>
+<script>
+    function playgame() {
+        let random = +prompt("nhap so bat ki: ")
+        let numberRandom = Math.floor(Math.random() * random);
+        let count = 0;
+        while (count<3){
+            let guess = parseInt(+prompt("ban doan lan "+(count+1)));
+            if (guess === numberRandom){
+                alert("ban da doan dung");
+                break;
+            }else if (guess < numberRandom){
+                alert("ban da doan so nho hon.")
+            }else if (guess > numberRandom) {
+                alert("ban da doan so lon hon.")
+            }
+                count++;
+        }
+        alert("ban da het luot choi,so dung la"+numberRandom);
+    }
+</script>
+</body>
+</html>

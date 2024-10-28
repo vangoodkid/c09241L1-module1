@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let principal = parseFloat(prompt("Nhập số tiền ban đầu (VND):"));
+    let monthlyRate = parseFloat(prompt("Nhập lãi suất hàng tháng (%):"));
+    let months = parseInt(prompt("Nhập số tháng cho vay:"));
+    for (let i = 0; i < months; i++) {
+        principal += principal * (monthlyRate/100);
+    }
+    console.log(`so tien cuoi cung sau ${months} la: ${principal.toFixed(2)}.`);
+</script>
+</body>
+</html>

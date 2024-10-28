@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 0,b = 1;
+    let n = +prompt("nhap so luong day fibo.")
+    for (let i = 0; i < n; i++) {
+        console.log(a)
+        let next = a+b;
+        a = b;
+        b = next;
+    }
+</script>
+</body>
+</html>

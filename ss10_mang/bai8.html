@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = prompt("nhap 10 so nguyen cach dau phay. ")
+    let numbers = n.split(",").map(Number);
+    console.log(`mang trc khi xep giam dan ${numbers}`);
+    numbers.sort((a,b)=>a-b);
+    console.log(`mang sau khi sap xep giam dan ${numbers}`);
+</script>
+</body>
+</html>
