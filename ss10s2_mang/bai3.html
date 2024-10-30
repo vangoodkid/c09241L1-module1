@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let chars = [12,6,'n',5,22,7,"o"] ;
+  let arraySize = chars.length;
+  console.log(`kich thuoc cua mang: ${arraySize} `);
+  let count = 0;
+  for (let i = 0; i < chars.length; i++) {
+    if (!isNaN(chars[i])){
+      count++;
+    }
+  }
+  console.log(`so luong so co trong mang la: ${count} `)
+</script>
+</body>
+</html>

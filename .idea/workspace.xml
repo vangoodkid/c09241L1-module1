@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss92_vong_lapfor/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_vong_lapfor/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10s2_mang/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10s2_mang/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10s2_mang/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10s2_mang/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10s2_mang/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10s2_mang/bai6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,25 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.demo.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tao_danh_sach.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/phamvan/Documents/C0924L1_module1/ss82_caulenh_dieukien&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.demo.html.executor": "Run",
+    "JavaScript Debug.tao_danh_sach.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/phamvan/Documents/C0924L1_module1/ss82_caulenh_dieukien",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ss82_caulenh_dieukien" />
@@ -120,6 +119,11 @@
       <workItem from="1729864763318" duration="681000" />
       <workItem from="1729915373979" duration="598000" />
       <workItem from="1730019126374" duration="992000" />
+      <workItem from="1730102432428" duration="13922000" />
+      <workItem from="1730184048769" duration="2000" />
+      <workItem from="1730278814247" duration="1567000" />
+      <workItem from="1730288345141" duration="1142000" />
+      <workItem from="1730293065716" duration="4164000" />
     </task>
     <servers />
   </component>
