@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = Number(prompt("nhap so nguyen duong bat ky: "));
+    let reverse = function (n){
+        let rev = 0;
+        let m = n;
+        while (m>0) {
+            rev = rev * 10 + m % 10;
+            m= Math.floor(m/10);
+        }
+        return rev;
+    }
+    alert(n+" sau khi dao nguoc la: "+ reverse(n));
+</script>
+</body>
+</html>

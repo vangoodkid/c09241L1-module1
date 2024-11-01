@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a = Number(prompt("nhap so a bat ky: "));
+  let b = Number(prompt("nhap so b bat ky: "));
+  let c = Number(prompt("nhap so c bat ky: "));
+
+  let check = function (a,b,c){
+    let min = a;
+    if (b<min){
+      min = b;
+    }
+    if (c<min){
+      min = c;
+    }
+    return min;
+  }
+  alert("so nho nhat trong 3 so la: "+check(a,b,c));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let c = prompt("nhap ky tu bat ky: ")
+    let char = "c,h,i,v,a,n,v,a,n,g,o,o,d".split(",");
+    let check = function (char){
+        let count = 0;
+        for (let i = 0; i < char.length ; i++) {
+            if (c  === char[i] ){
+                count++;
+            }
+        }
+        return count > 0 ? count : -1;
+    }
+    let result = check(char);
+    if (result > 0){
+        alert(`co ${check(char)} ky tu ${c} trong mang `);
+    }else {
+        alert(`k co ky tu nao trong mang.`);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let number = Number(prompt("nhap tu bat ky: "));
+        if (check(number)){
+            alert("yes la so")
+        }else {
+            alert("no k phai la so")
+        }
+        function check (number) {
+            let flag = false;
+            if (!isNaN(number)){
+               return flag = true;
+            }
+            return flag = false;
+        }
+</script>
+</body>
+</html>
