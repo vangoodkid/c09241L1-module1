@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let star = "Polaris,Aldebaran,Deneb,Vega,Altair,Dubhe,Regulus".split(",");
+    let star2 = "Ursa Minor,Tarurus,Cygnus,Lyra,Aquila,Ursa Major,Leo".split(",");
+
+    let input = prompt("nhap ten sao tuong ung: ");
+    let check = checkStar(input);
+    if (check){
+        alert("chom sao tuong ung la: "+check);
+    }else {
+        alert("k tim thay chom sao tuong ung.")
+    }
+    function checkStar(input) {
+        for (let i = 0; i < star.length ; i++) {
+            if (star[i].toLowerCase() === input.toLowerCase()){
+                return star2[i];
+            }
+        }
+        return null;
+    }
+
+
+</script>
+</body>
+</html>
