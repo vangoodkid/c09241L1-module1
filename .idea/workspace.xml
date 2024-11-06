@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db1dfea-f0dd-40d8-af1d-26a4d1dcaefc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S11_function2/bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_oop/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_oop/bai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_va_luu_do/bai_tap/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss4_git_html/bai_tap/tao_danh_sach.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,14 @@
       <workItem from="1730293065716" duration="4537000" />
       <workItem from="1730297619769" duration="559000" />
       <workItem from="1730450498292" duration="4154000" />
-      <workItem from="1730461577867" duration="7667000" />
+      <workItem from="1730461577867" duration="7834000" />
+      <workItem from="1730633170386" duration="6657000" />
+      <workItem from="1730647070791" duration="5000" />
+      <workItem from="1730721161954" duration="270000" />
+      <workItem from="1730721442367" duration="2000" />
+      <workItem from="1730721453689" duration="7312000" />
+      <workItem from="1730883732100" duration="653000" />
+      <workItem from="1730899599877" duration="1522000" />
     </task>
     <servers />
   </component>

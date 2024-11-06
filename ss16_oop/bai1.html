@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        canvas {
+            border: 1px solid #707;
+            display: block;
+            margin: 20px auto;
+        }
+        #output {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<canvas id="rectangleCanvas" width="400" height="300"></canvas>
+<div id="output"></div>
+
+<script>
+   class Rectangle{
+       constructor(width,height) {
+           this.width = width;
+           this.height = height;
+       }
+        chuVi(){
+            return (this.width+this.height)*2;
+       }
+       dienTich(){
+           return this.width*this.height;
+       }
+       draw(canvasId) {
+           const canvas = document.getElementById(canvasId);
+           const ctx = canvas.getContext('2d');
+           ctx.fillStyle = "#FF5733";
+           ctx.fillRect(50, 50, this.width, this.height);
+
+       }
+   }
+   let  myRectangle = new Rectangle(50,100);
+   console.log(myRectangle.chuVi());
+   console.log(myRectangle.dienTich());
+
+   myRectangle.width = 150;
+   myRectangle.height = 300;
+
+   myRectangle.draw('rectangleCanvas');
+
+   const outputDiv = document.getElementById('output');
+   outputDiv.innerHTML = `
+        <p>Diện tích: ${myRectangle.dienTich()}</p>
+        <p>Chu vi: ${myRectangle.chuVi()}</p>
+    `;
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   class Temperature {
+       constructor(C) {
+           this.C = C;
+       }
+
+       c_f(){
+           return (9/5*this.C) + 32;
+       }
+       c_kevin(){
+           return this.C + 273.15;
+       }
+   }
+   let c = new Temperature(25);
+   console.log(c.c_f());
+   console.log(c.c_kevin());
+
+</script>
+</body>
+</html>
