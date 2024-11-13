@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let arr = [];
+  let n = prompt("nhap n: ");
+  for (let i = 0; i < n; i++) {
+      let save = prompt("nhap phan tu thu: "+(i+1));
+      arr.push(save);
+  }
+  console.log(arr);
+
+  let result = chanLe(arr);
+
+  function chanLe(arr) {
+    if (arr.length === 0){
+      return -1;
+    }
+    let checkChan = true;
+    let checkLe = true;
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] % 2 === 0){
+        checkLe = false;
+      }else {
+        checkChan = false;
+      }
+    }
+    if (checkChan){
+      return 1;
+    }else if (checkLe){
+      return 0;
+    }else {
+      return -1;
+    }
+  }
+console.log(result);
+</script>
+
+</body>
+</html>
