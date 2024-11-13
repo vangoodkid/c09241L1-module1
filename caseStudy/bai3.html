@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkArr(arr) {
+        let n = arr.length;
+        for ( i = 0; i < Math.floor(n/2); i++) {
+            if (arr[i] !== arr[n-1-i]){
+                return false;
+            }
+        }
+        return true;
+    }
+    let arr = [];
+    let n = Number(prompt("nhap so luong phan tu: "));
+    while (n < 0){
+        let n = Number(prompt("nhap lai so luong phan tu: "));
+    }
+    for (let i = 0; i < n ; i++) {
+       let save = prompt("nhap phan tu thu: " +(i+1));
+        arr.push(save);
+    }
+    console.log("mang vua nhap: "+arr);
+
+
+    if (checkArr(arr)){
+        alert("ok");
+    }else {
+        alert("no");
+    }
+</script>
+</body>
+</html>

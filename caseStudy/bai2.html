@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = parseInt(prompt("nhap x: "));
+    let y = parseInt(prompt("nhap y: "));
+    let z = parseInt(prompt("nhap z: "));
+     function checkTriangle(x,y,z){
+        if( x + y <= z || y + z <= x || x + z <= y){
+            return ("k phai canh cua 1 tam giac");
+        }else if (( x * x + y * y === z * z) || ( x * x + z * z === y * y) || y * y + z * z === x * x){
+            return ("la 3 canh la tam giac vuong");
+        }else {
+            return ("chi la 3 canh tam giac.");
+        }
+    }
+    console.log(checkTriangle(x,y,z));
+
+
+
+</script>
+</body>
+</html>
