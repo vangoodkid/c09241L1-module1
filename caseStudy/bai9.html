@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function couple(arr) {
+    for (let i = 0; i < arr.length - 1; i+=2) {
+      if (arr[i] > arr[i+1]){
+        return false;
+      }
+    }
+    return true;
+  }
+  let arr = [];
+  let n = prompt("nhap n: ");
+  while (n % 2 !== 0){
+  n = prompt("nhap lai n chan: ")
+  }
+  for (let i = 0; i < n; i++) {
+    let save = prompt("nhap phan tu thu: "+(i+1));
+    arr.push(save);
+  }
+  alert("mang sau khi nhap la: "+arr);
+  let check = couple(arr);
+  if(check){
+    alert("ok");
+  }else {
+    alert("no");
+  }
+</script>
+</body>
+</html>

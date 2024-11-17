@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [2,3,5,7,11];
+
+    alert(arr);
+    let check = isPre(arr);
+
+    function checkIsPre(num) {
+        if (num < 2){
+            return false;
+        }
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0){
+                return false;
+            }
+        }
+        return true;
+    }
+    function isPre(arr2) {
+        for (let i = 0; i < arr2.length; i++) {
+            if (!checkIsPre(arr2[i])){
+                return false;
+            }
+        }
+        return true;
+    }
+    if (check){
+        alert("true");
+    }else {
+        alert("false.");
+    }
+
+</script>
+</body>
+</html>

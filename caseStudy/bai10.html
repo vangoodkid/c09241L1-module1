@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let str = prompt("nhap chuoi bat ky: ").toLowerCase();
+  function checkString(str) {
+    let vowel = ["a","i","o","u","e"];
+    let arr = [];
+    for (let char of str){
+      if (vowel.includes(char) && !arr.includes(char)){
+        arr.push(char);
+      }
+    }
+    return arr;
+  }
+  alert("nguyen am trong chuoi la: "+checkString(str))
+</script>
+</body>
+</html>
