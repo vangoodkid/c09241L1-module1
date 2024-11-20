@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Công Nhân</title>
+    <style>
+        table { width: 40%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 2px solid #ccc; padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+<p id="display"></p>
+<script>
+    class congNhan{
+        constructor(STT,fullName,birthDay,address,salary,work) {
+            this.STT = STT;
+            this.fullName = fullName;
+            this.birthDay = birthDay;
+            this.address = address;
+            this.salary = salary;
+            this.work = work;
+        }
+
+    }
+    let congNhanList = [
+        new congNhan(1,"lê mạnh tú","25-02-2003","hà nội",5000000,"worker"),
+        new congNhan(2,"lê mạnh cường","15-02-2005","đà nẵng",5000000,"worker"),
+        new congNhan(3,"lê mạnh vũ","18-02-2004","huế ",5000000,"worker"),
+        new congNhan(4,"lê mạnh trung","11-02-2007","quảng nam ",5000000,"worker"),
+        new congNhan(5,"lê mạnh dũng","05-02-2008","quảng bình ",5000000,"worker")
+    ]
+    function display() {
+        congNhanList.sort((a, b) => a.fullName.localeCompare(b.fullName));
+        let tableInfo = `<table>
+    <tr>
+        <th>STT</th>
+        <th>Họ Và Tên</th>
+        <th>Ngày Sinh</th>
+        <th>Địa Chỉ</th>
+        <th>Lương</th>
+        <th>Chức Vụ</th>
+    </tr>`;
+
+        for (let i = 0; i < congNhanList.length; i++) {
+            let worker = congNhanList[i];
+            tableInfo += `<tr>
+                    <td>${i+1}</td>
+                    <td>${worker.fullName}</td>
+                    <td>${worker.birthDay}</td>
+                    <td>${worker.address}</td>
+                    <td>${worker.salary.toFixed(2)}</td>
+                    <td>${worker.work}</td>
+                </tr>`;
+        }
+        tableInfo += `</table>`;
+        document.getElementById('display').innerHTML = tableInfo;
+    }
+    display();
+
+</script>
+</body>
+</html>

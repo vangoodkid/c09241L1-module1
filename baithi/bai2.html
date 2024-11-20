@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPerfectNumber(num) {
+        if (num <= 0) {
+            return false;
+        }
+        let sum = 0;
+
+        for (let i = 1; i <= num / 2; i++) {
+            if (num % i === 0) {
+                sum += i;
+            }
+        }
+        if (sum === num) {
+            return "TRUE";
+        } else {
+            return 'FALSE';
+        }
+
+    }
+
+    let number = prompt("Nhập một số nguyên dương: ");
+    number = parseInt(number);
+
+        let result = isPerfectNumber(number);
+        alert(result);
+
+</script>
+</body>
+</html>

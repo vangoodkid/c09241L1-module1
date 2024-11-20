@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = prompt("nhập số lượng phần tử: ");
+    while (n > 50 || n <= 0 || n % 1 !== 0) {
+        n = prompt("Nhập lại n: ");
+    }
+    let arr = [];
+    for (let i = 0; i < n; i++) {
+        let save = prompt("nhập phần tử thứ: " + (i + 1));
+        arr.push(parseInt(save));
+    }
+    alert("các phần tử vừa nhập: " + arr);
+    let count = 0;
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 3 === 0) {
+            sum += arr[i];
+            count++;
+        }
+    }
+    let average = sum / count;
+
+    alert("trung bình cộng của các số chia hết cho 3 là: " + average);
+</script>
+</body>
+</html>

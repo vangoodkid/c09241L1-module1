@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let n = prompt("nhap n: ");
+  let arr = [];
+  for (let i = 0; i < n; i++) {
+    let save = prompt("nhap phan tu thu: "+(i+1));
+    arr.push(parseInt(save));
+  }
+  console.log(arr);
+  let check = isFi(arr);
+  console.log(check);
+  
+  function isFi(arr) {
+    let numberFibo = [];
+    let num;
+    for (let i = 0; i < arr.length; i++) {
+       num = arr[i];
+       if(checkFibo(num)){
+         numberFibo.push(num);
+       }
+    }
+    for (let i = 0; i < numberFibo.length ; i++) {
+      for (let j = i+1; j < numberFibo.length ; j++) {
+        if (numberFibo[i] > numberFibo[j]){
+          let temp = numberFibo[i];
+          numberFibo[i] = numberFibo[j];
+          numberFibo[j] = temp;
+        }
+      }
+    }
+    return numberFibo;
+  }
+ 
+  function checkFibo(num) {
+    let a = 0;
+    let b = 1;
+    let temp = 0;
+    while (temp < num){
+      temp = a+b;
+      a = b;
+      b = temp;
+    }
+    return temp === num;
+  }
+</script>
+</body>
+</html>
